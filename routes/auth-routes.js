@@ -19,7 +19,8 @@ router.get(
 
 // cb route for google redir
 router.get("/google/redirect", passport.authenticate("google"), (req, res) => {
-  res.send("cb uri reached");
+  res.send(req.user);
+  // res.redirect("/profile")
 });
 
 module.exports = router;
