@@ -1,0 +1,19 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TomHessburg/passport.git",
+  "author": "Thomas Hessburg <44884308+TomHessburg@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
